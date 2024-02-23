@@ -8,6 +8,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
@@ -70,9 +71,7 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end w-auto">
-            <a class="btn bg-bikerzone text-white px-6">Button</a>
-          </div>
+          
         </div>
       </nav>
       <!-- slider or carousel -->
@@ -277,7 +276,7 @@
 
       <!-- review section  -->
 
-      <section class="lg:p-8 lg:my-10 my-4 p-4">
+      <section class="lg:p-8 lg:my-10 my-24 p-4">
         <h2 class="text-4xl mb-6 font-semibold text-center">
           Happy <span class="text-bikerzone">Clients says</span>
         </h2>
@@ -425,6 +424,67 @@
           <!-- 3rd review end -->
         </div>
       </section>
+      <section class="lg:p-8 lg:my-10 my-24 ">
+        <div class="card card-side lg:flex-row flex-col lg:gap-24 gap-5  bg-base-100">
+          <figure class="flex-1">
+            <img
+            class="w-3/4"
+              src="./images/others/faq.png"
+              alt="Movie"
+            />
+          </figure>
+          <div class="card-body flex-1">
+            <div class="collapse">
+              <input type="radio" name="my-accordion-1" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse">
+              <input type="radio" name="my-accordion-1" /> 
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="collapse">
+              <input type="radio" name="my-accordion-1" /> 
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <footer class="footer p-10 bg-neutral text-neutral-content">
+        <aside>
+          
+          <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
+        </aside> 
+        <nav>
+          <h6 class="footer-title">Get the app now</h6> 
+          <div class="grid grid-cols-1 gap-4">
+            <a>
+              <img class="w-36" src="./images/others/android.png" alt="" srcset="">
+            </a>
+            <a>
+              <img <img class="w-36" src="./images/others/ios.png" alt="" srcset="">
+            </a>
+          </div>
+        </nav>
+      </footer>
+    </footer>
   </body>
 </html>
